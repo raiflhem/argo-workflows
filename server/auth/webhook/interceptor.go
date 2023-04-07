@@ -30,6 +30,7 @@ var webhookParsers = map[string]matcher{
 	"bitbucketserver": bitbucketserverMatch,
 	"github":          githubMatch,
 	"gitlab":          gitlabMatch,
+  "gitea":           giteaMatch,
 }
 
 const pathPrefix = "/api/v1/events/"
